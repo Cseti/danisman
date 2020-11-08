@@ -1,0 +1,21 @@
+.contact {
+    font-size: 28px;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        padding-top: 100px;
+        text-align: left;
+    }
+
+    p {
+        margin-bottom: 50px;
+    }
+
+    a {
+        color: $font-color;
+    }
+
+    &__icon {
+        margin-right: 35px;
+    }
+}

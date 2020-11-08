@@ -1,0 +1,17 @@
+.business-card {
+    text-align: center;
+    margin-bottom: 50px;
+
+    &__image {
+        margin-bottom: 30px;
+    }
+
+    &__name {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    &__role {
+        font-size: 30px;
+    }
+}

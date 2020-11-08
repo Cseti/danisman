@@ -1,0 +1,20 @@
+.hero {
+    background: url("/images/hero.jpg") center/cover no-repeat;
+    height: 54vw;
+    font-family: $font-roboto-condensed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vw;
+    color: $hero-color;
+
+    &__headline {
+        font-weight: bold;
+        font-size: 4.7vw;
+        margin-top: auto;
+    }
+
+    &__sub-headline {
+        font-size: 2.3vw;
+    }
+}
