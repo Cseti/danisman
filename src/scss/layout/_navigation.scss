@@ -11,6 +11,11 @@
     &.active {
         .nav-link {
             font-weight: bold;
+            border-bottom: 1px solid $red;
+
+            @media (min-width: 768px) {
+                border-bottom: none;
+            }
 
             &:before {
                 transform: translate(-50%, 0);
@@ -31,16 +36,18 @@
         }
 
         &:before {
-            content: '';
-            display: block;
-            width: 21px;
-            height: 28px;
-            background-color: $red;
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            transform: translate(-50%, -120%);
-            transition: 300ms all;
+            @media (min-width: $screen-sm-min) {
+                content: '';
+                display: block;
+                width: 21px;
+                height: 28px;
+                background-color: $red;
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                transform: translate(-50%, -120%);
+                transition: 300ms all;
+            }
         }
     }
 }

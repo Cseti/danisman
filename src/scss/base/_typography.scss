@@ -1,7 +1,11 @@
 body {
     font-family: $font-source-sans-pro;
     color: $font-color;
-    padding-top: 116px;
+    padding-top: 83px;
     font-size: 25px;
+    
+    @media (min-width: $screen-sm-min) {
+        padding-top: 116px;
+    }
 }
 

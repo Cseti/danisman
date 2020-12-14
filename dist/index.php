@@ -209,13 +209,13 @@ $t = new Translate();
             <img src="/images/Terkep.jpg" alt="" data-aos="zoom-in" class="scale-on-hover">
         </div>
 
-        <div class="col-12 col-md-6 contact">
-            <p data-aos="fade-up"><img src="/images/contact.jpg" alt="" class="contact__icon">Danisman Tanácsadó Kft.
+        <div class="col-12 col-md-6 contact" data-aos="fade-up">
+            <p><img src="/images/contact.jpg" alt="" class="contact__icon">Danisman Tanácsadó Kft.
             </p>
-            <p data-aos="fade-up"><img src="/images/mail.jpg" alt="" class="contact__icon"><a
+            <p><img src="/images/mail.jpg" alt="" class="contact__icon"><a
                         href="mailto:info@danisman.hu">info@danisman.hu</a>
             </p>
-            <p data-aos="fade-up"><img src="/images/place1.jpg" alt="" class="contact__icon">1111. Budapest, Bertalan
+            <p><img src="/images/place1.jpg" alt="" class="contact__icon">1111. Budapest, Bertalan
                 Lajos u. 22.</p>
         </div>
     </div>
